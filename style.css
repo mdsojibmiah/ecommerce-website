@@ -527,6 +527,139 @@ p{
 /*=============FOOTER SECTION END====================*/
 
 
+
+
+/*=========SHOP SECTION SRART============*/
+
+#page-header{
+    width: 100%;
+    height: 40vh;
+    background-image: url(img/banner/b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+/*=========SHOP SECTION SRART============*/
+
+/*============SINGLE PRODUCTS START========================*/
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+}
+#prodetails .single-pro-details h6{
+    font-size:18px;
+}
+#prodetails .single-pro-details h2{
+    font-size: 25px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails button{
+    padding: 11px 18px;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    background: #088178;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 4px;
+    transition: .2s ease-in;
+    letter-spacing: 1px;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+    font-size: 19px;
+    color: #3b3a3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================================================================================
                                     RESPONSIVE START 
 ==================================================================================== */
@@ -676,6 +809,39 @@ p{
     #newsletter{
         padding: 40px 20px;
     }
+
+    /*===========SINGLE PRODUCT======== */
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*=========================RESPONSIVE FOR PHONE(MAX-WIDTH = 477) END========================*/
